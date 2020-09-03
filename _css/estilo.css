@@ -1,0 +1,261 @@
+@charset "UFT-8";
+<style>
+@import url ('https://fonts.googleapis.com/css2? family = Kreon: wght @ 300; 700 & display = swap'); </style>
+@font-face {
+    
+
+    
+    font-family: 'fontelogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+        body {
+        background-image:url("modelo-de-plano-de-fundo-branco-retangular_8167-580.jpg");
+        background-color: #fdfffe;
+        color: black  ;
+        font-family: arial,sans-serif;
+        }
+
+        p
+        {
+            text-align: justify;
+            text-indent: 30px ;
+        }
+
+            a{
+                color: #606060;
+                text-decoration: none;
+            }
+
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        header#cabecalho {
+            border-bottom: 1px black solid;
+            height: 150px;
+            background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px  80px ;
+
+        }
+             header#cabecalho h1{
+                 font-family: 'fontelogo', sans-serif;
+                 font-size: 30px;
+                 color: #606060;
+                 text-shadow: 1px 1px 1px rbga("0,0,0,. 6"); 
+                }
+             
+
+             header#cabecalho h2{
+                 font-family: font-family: 'Kreon', serif; 
+                 color: #606060;
+                 font-size: 15pt;
+             }
+
+        /* formatação de imagens*/
+
+        figure.foto-legenda {
+            position: relative;
+            border: 5px solid white;
+            box-shadow: 1px 1px 4px rgba(0,0,0,.5)
+        }
+
+        figure.foto-legenda{
+            width: 45%;
+            height: 100%;
+        }
+
+        figure.foto-legenda figcaption{
+            opacity: 0;
+            position: absolute;
+            top: 0px;
+            background-color: rgba(0,0,0,.4);
+            color: white;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box  ;
+            transition: opacity 1s;
+        }
+
+        figure.foto-legenda:hover figcaption{
+            opacity: 1  ;
+        }
+
+        /* formatação do menu */
+
+        nav#menu {
+            display: block;
+        }
+
+        nav#menu ul {
+            list-style: none;
+            text-transform: uppercase;
+            position: absolute;
+            top:-10px;
+            left:350px; 
+            
+        }
+
+        div#interface {
+            width: 1100px;   
+            margin: auto auto auto auto;
+            box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+            padding: 10px;
+        }
+
+        nav#menu li {
+            display: inline-block ;
+            background-color: #9b9b9b;
+            padding: 10px;
+            margin: 2px;
+            transition:background-color 1s;
+        }
+
+
+        nav#menu li:hover{
+        background-color: rgba(0,0,0,.4);
+        }
+      
+
+        nav#menu h1{
+            display: none;
+        }
+
+        nav#menu a{
+            color: rgba(0,0,0,.4);
+            text-decoration: none;
+        }
+
+        nav#menu a:hover {
+            color: seashell ;
+        }
+
+        img#icone {
+            position: absolute;
+            left:960px;
+            top: 60px;
+        }
+        
+        section#corpo {
+            display: block;
+            width: 650px;
+            float: left;
+            border-right: 1px solid #606060;
+            padding-right: -50px;
+        }
+
+        article#noticia-principal h2 {
+            font-size: 12pt;
+            color: #606060;
+            background-color: #a8a8a8;
+            padding: 5px 0px 5px 10px;
+            margin: 10px 0px 10px 0px;
+
+        }
+
+
+
+        table#tabelaspace {
+            border: 1px solid #606060;
+            border-spacing: 0px;
+            margin-left:auto;
+            margin-right:auto;
+     
+        }
+   
+        table#tabelaspace td {
+            border: 1px solid #606060;
+            padding: 10px; 
+            text-align: auto;
+
+        }
+
+        table#tabelaspace td.ce {
+            color: #ffffff;
+            background-color: #606060;
+            vertical-align: top;
+            font-weight: bolder;
+        }
+
+        table#tabelaspace td.cd {
+            background-color: #cecece;
+        }
+
+        table#tabelaspace caption {
+            color: #888888;
+            font-size: 18px;
+            font-weight: bolder;
+
+        }
+
+        table#tabelaspace caption span {
+            display: block;
+            float: right;
+            color: #000000;
+            font-size: 8pt;
+            margin-top: 10px;
+        }
+
+        aside#lateral {
+            display: block;
+            width: 440px;
+            float: right;
+        
+        }
+
+        aside#lateral h1 {
+            font-family: 'fontelogo', sans-serif;
+            font-size: 20pt;
+            color: #606060;
+
+        }
+
+        aside#lateral h2 {
+            color: #ffffff;
+            font-size: 15pt;
+            background-color: #606060;
+            padding: 5px;
+        }
+
+            footer#rodape {
+                clear: both;
+                border-top: 1px solid #606060 ;
+            }
+
+            footer#rodape p {
+                text-align: center;
+            }
+
+        div#cores {
+            color: #ffffff;
+            background-color: #606060;
+        }
+
+        header#cabecalho-artigo h1 {
+            font-family: 'fontelogo',sans-serif;
+            font-size: 20pt;
+            color: #606060;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+        
+        header#cabecalho-artigo h2 {
+            font-size: 13pt;
+            color: #606060;
+            background-color: #ffffff ;
+        }
+        
+        header#cabecalho-artigo h3 {
+                font-size: 12px;
+                color: #606060;
+        }
+
+        .direita {
+            text-align: right;
+        }
+
+        hgroup#baixo h1
+        {
+            border: 2px 3px 4px 4px;
+        }
+
+        
